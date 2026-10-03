@@ -21,3 +21,7 @@ class UserResponse(BaseModel):
 
     class Config:
         from_attributes = True
+
+class GoogleAuthRequest(BaseModel):
+    token: str
+    role: Optional[str] = 'freelancer'
