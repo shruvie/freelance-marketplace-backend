@@ -8,3 +8,9 @@ python-dotenv==1.0.0
 python-jose[cryptography]==3.3.0
 passlib[argon2]==1.7.4
 python-multipart==0.0.6
+alembic
+google-generativeai
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+cloudinary
